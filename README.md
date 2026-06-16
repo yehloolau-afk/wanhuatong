@@ -1,61 +1,61 @@
-# 万花筒 · WanHuaTong
+# WanHuaTong · 万花筒
 
 **Live →** [yehloolau-afk.github.io/wanhuatong](https://yehloolau-afk.github.io/wanhuatong/)
 
-粘贴任意文本，自动生成分镜脚本、AI 图片、AI 视频片段，一键下载素材。
+Paste any Chinese text — get a full storyboard, AI-generated images, and video clips, ready to edit in AE / 剪映.
 
-> Paste any Chinese text → get a full storyboard, AI-generated images, and video clips — ready to edit in AE / 剪映.
-
----
-
-## 效果展示
-
-写实国风风格 · 4 个分镜场景自动生成：
-
-![万花筒效果截图](https://yehloolau-afk.github.io/wanhuatong/preview.png)
+> **Designed for desktop.** Optimized for large screens; a mobile-friendly version is in the works.
 
 ---
 
-## 工作流
+## Preview
+
+Realistic Chinese style · 4 storyboard scenes auto-generated:
+
+![WanHuaTong screenshot](https://yehloolau-afk.github.io/wanhuatong/preview.png)
+
+---
+
+## Workflow
 
 ```
-粘贴文本 → 配置参数 → 解析分镜 → 批量生图 → 批量生视频 → 下载素材
-    1           2           3           4           5           6
+Paste text → Configure → Parse storyboard → Generate images → Generate videos → Download
+     1            2             3                  4                  5              6
 ```
 
-1. 粘贴课文、古诗、故事等任意文本
-2. 选择年级、画面风格（故事绘本 / 卡通动漫 / 中国水墨 / 写实国风）、输出尺寸、场景数量
-3. 点「解析分镜脚本」—— AI 自动提取关键画面并生成中文图像提示词
-4. 点「批量生图」—— 调用 Volcengine Seedream 5.0 一键生成所有场景图片
-5. 点「批量生视频」—— 调用 Volcengine Seedance 1.5 Pro 生成视频片段
-6. 下载全部素材导入 AE / 剪映合成
+1. Paste any Chinese text — textbook passages, poetry, stories
+2. Choose grade level, art style (storybook / cartoon / ink painting / Chinese realism), aspect ratio, and scene count
+3. Click "Parse Storyboard" — AI extracts key scenes and generates image prompts
+4. Click "Generate Images" — calls Volcengine Seedream 5.0 to create all scene images
+5. Click "Generate Videos" — calls Volcengine Seedance 1.5 Pro to animate each scene
+6. Download all assets and import into AE / 剪映
 
 ---
 
-## 支持尺寸
+## Supported Sizes
 
-| 平台 | 比例 | 分辨率 |
+| Platform | Ratio | Resolution |
 |---|---|---|
-| 抖音竖屏 | 9:16 | 1440×2560 |
-| 小红书竖版 | 3:4 | 1728×2304 |
-| 小红书方形 | 1:1 | 2K |
-| 横屏（B站 / YouTube） | 16:9 | 2560×1440 |
+| Douyin (vertical) | 9:16 | 1440×2560 |
+| Xiaohongshu (vertical) | 3:4 | 1728×2304 |
+| Xiaohongshu (square) | 1:1 | 2K |
+| Landscape (Bilibili / YouTube) | 16:9 | 2560×1440 |
 
 ---
 
-## 如何使用
+## Getting Started
 
-打开上方链接，填入自己的火山方舟 API Key 即可开始。所有生成均在浏览器端完成，无需安装，无需登录，无后端。
+Open the link above, enter your Volcengine Ark API Key and start generating. Everything runs in the browser — no install, no login, no backend.
 
-**API Key 获取**：[火山方舟控制台](https://console.volcengine.com/ark) → 创建 API Key
+**Get an API Key:** [Volcengine Ark Console](https://console.volcengine.com/ark) → Create API Key
 
 ---
 
-## 技术栈
+## Stack
 
-- 单文件 HTML，无框架，无构建工具
-- 图片：Volcengine Seedream 5.0
-- 视频：Volcengine Seedance 1.5 Pro（异步轮询）
-- CORS 代理：Netlify Functions
+- Single HTML file — no framework, no build tools
+- Images: Volcengine Seedream 5.0
+- Videos: Volcengine Seedance 1.5 Pro (async polling)
+- CORS proxy: Netlify Functions
 
 `Claude Code` · `Vanilla HTML / CSS / JS` · `GitHub Pages`
