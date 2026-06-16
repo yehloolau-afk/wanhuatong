@@ -1,4 +1,4 @@
-# Wanhuatong · 万花筒
+# WanHuaTong · 万花筒
 
 **Live →** [yehloolau-afk.github.io/wanhuatong](https://yehloolau-afk.github.io/wanhuatong/)
 
