@@ -1,10 +1,10 @@
-# WanHuaTong · 万花筒
+# WanHuaTong
 
 **Live →** [wanhuatong-a.netlify.app](https://wanhuatong-a.netlify.app/)
 
-Paste any Chinese elementary school lesson — get a full storyboard, AI-generated images, and video clips, ready to edit in AE / 剪映.
+Paste any Chinese elementary school lesson — get a full storyboard, AI-generated images, and video clips, ready to edit in After Effects or any video editor.
 
-> **Designed for desktop.** Open in a browser, paste your API key, and start generating.
+> **Designed for desktop.** Open in a browser, enter your API key, and start generating.
 
 ---
 
@@ -20,7 +20,7 @@ Paste text → Configure → Parse storyboard → Generate images → Generate v
 3. Click "Parse Storyboard" — local JS extracts scenes and builds image prompts, zero API calls
 4. Click "Generate Images" — Volcengine Seedream 5.0 generates all scenes in parallel
 5. Click "Generate Videos" — Volcengine Seedance 1.5 Pro animates each image (async)
-6. Download all assets → import into AE / 剪映 → add voiceover and subtitles
+6. Download all assets → import into your video editor → add voiceover and subtitles
 
 ---
 
@@ -28,10 +28,10 @@ Paste text → Configure → Parse storyboard → Generate images → Generate v
 
 | Platform | Ratio | Resolution |
 |---|---|---|
-| Douyin (vertical) | 9:16 | 1440×2560 |
+| Douyin / TikTok (vertical) | 9:16 | 1440×2560 |
 | Xiaohongshu (vertical) | 3:4 | 1728×2304 |
 | Xiaohongshu (square) | 1:1 | 2K |
-| Bilibili / YouTube | 16:9 | 2560×1440 |
+| YouTube / Bilibili | 16:9 | 2560×1440 |
 
 ---
 
@@ -39,7 +39,7 @@ Paste text → Configure → Parse storyboard → Generate images → Generate v
 
 1. Open [wanhuatong-a.netlify.app](https://wanhuatong-a.netlify.app/)
 2. Click the settings icon → enter your Volcengine Ark API Key
-3. Paste any Chinese text and generate
+3. Paste any Chinese lesson text and generate
 
 **Get a free API Key →** [Volcengine Ark Console](https://console.volcengine.com/ark)
 
@@ -56,4 +56,4 @@ Paste text → Configure → Parse storyboard → Generate images → Generate v
 
 ---
 
-⭐ If this is useful to you, leave a star!
+Star this if it is useful to you.
