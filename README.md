@@ -1,6 +1,6 @@
 # WanHuaTong
 
-**Live →** [wanhuatong-a.netlify.app](https://wanhuatong-a.netlify.app/)
+**Live →** [yehloolau-afk.github.io/wanhuatong](https://yehloolau-afk.github.io/wanhuatong/)
 
 Paste any Chinese elementary school lesson — get a full storyboard, AI-generated images, and video clips, ready to edit in After Effects or any video editor.
 
@@ -37,7 +37,7 @@ Paste text → Configure → Parse storyboard → Generate images → Generate v
 
 ## Getting started
 
-1. Open [wanhuatong-a.netlify.app](https://wanhuatong-a.netlify.app/)
+1. Open [yehloolau-afk.github.io/wanhuatong](https://yehloolau-afk.github.io/wanhuatong/)
 2. Click the settings icon → enter your Volcengine Ark API Key
 3. Paste any Chinese lesson text and generate
 
